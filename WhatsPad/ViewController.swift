@@ -6,12 +6,15 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var page1WebView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        page1WebView.load(URLRequest(url: URL(string: "https://web.whatsapp.com/")!))
     }
 
 
