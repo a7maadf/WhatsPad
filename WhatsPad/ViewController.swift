@@ -16,6 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         page1WebView.load(URLRequest(url: URL(string: "https://web.whatsapp.com/")!))
     }
+    
+    
+    
 
 
 }
